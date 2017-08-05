@@ -1,0 +1,7 @@
+D:\asp .net core\PartyTime\PartyTime.Core\bin\Debug\netcoreapp1.1\PartyTime.Core.deps.json
+D:\asp .net core\PartyTime\PartyTime.Core\bin\Debug\netcoreapp1.1\PartyTime.Core.dll
+D:\asp .net core\PartyTime\PartyTime.Core\bin\Debug\netcoreapp1.1\PartyTime.Core.pdb
+D:\asp .net core\PartyTime\PartyTime.Core\obj\Debug\netcoreapp1.1\PartyTime.Core.csprojResolveAssemblyReference.cache
+D:\asp .net core\PartyTime\PartyTime.Core\obj\Debug\netcoreapp1.1\PartyTime.Core.AssemblyInfo.cs
+D:\asp .net core\PartyTime\PartyTime.Core\obj\Debug\netcoreapp1.1\PartyTime.Core.dll
+D:\asp .net core\PartyTime\PartyTime.Core\obj\Debug\netcoreapp1.1\PartyTime.Core.pdb

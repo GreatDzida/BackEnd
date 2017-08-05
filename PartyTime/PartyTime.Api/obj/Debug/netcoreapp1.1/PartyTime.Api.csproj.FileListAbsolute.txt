@@ -1,0 +1,8 @@
+D:\asp .net core\PartyTime\PartyTime\bin\Debug\netcoreapp1.1\PartyTime.Api.deps.json
+D:\asp .net core\PartyTime\PartyTime\bin\Debug\netcoreapp1.1\PartyTime.Api.runtimeconfig.json
+D:\asp .net core\PartyTime\PartyTime\bin\Debug\netcoreapp1.1\PartyTime.Api.runtimeconfig.dev.json
+D:\asp .net core\PartyTime\PartyTime\bin\Debug\netcoreapp1.1\PartyTime.Api.dll
+D:\asp .net core\PartyTime\PartyTime\bin\Debug\netcoreapp1.1\PartyTime.Api.pdb
+D:\asp .net core\PartyTime\PartyTime\obj\Debug\netcoreapp1.1\PartyTime.Api.AssemblyInfo.cs
+D:\asp .net core\PartyTime\PartyTime\obj\Debug\netcoreapp1.1\PartyTime.Api.dll
+D:\asp .net core\PartyTime\PartyTime\obj\Debug\netcoreapp1.1\PartyTime.Api.pdb
