@@ -18,9 +18,11 @@ namespace PartyTime.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public JsonResult Get(int id)
         {
-            return "value";
+            Hero hero = new Hero();
+            hero.name = "value2";
+            return Json(hero);
         }
 
         // POST api/values
