@@ -16,5 +16,11 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
   </ItemGroup>
+    <ItemGroup>
+    <ProjectReference Include="..\PartyTime.Infrastructure\PartyTime.Infrastructure.csproj" />
+  </ItemGroup>
+      <ItemGroup>
+    <ProjectReference Include="..\PartyTime.Core\PartyTime.Core.csproj" />
+  </ItemGroup>
 
 </Project>

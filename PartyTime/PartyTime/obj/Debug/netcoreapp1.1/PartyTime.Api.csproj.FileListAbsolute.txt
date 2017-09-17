@@ -6,3 +6,7 @@ D:\asp .net core\PartyTime\PartyTime\bin\Debug\netcoreapp1.1\PartyTime.Api.pdb
 D:\asp .net core\PartyTime\PartyTime\obj\Debug\netcoreapp1.1\PartyTime.Api.AssemblyInfo.cs
 D:\asp .net core\PartyTime\PartyTime\obj\Debug\netcoreapp1.1\PartyTime.Api.dll
 D:\asp .net core\PartyTime\PartyTime\obj\Debug\netcoreapp1.1\PartyTime.Api.pdb
+D:\asp .net core\PartyTime\PartyTime\bin\Debug\netcoreapp1.1\PartyTime.Core.dll
+D:\asp .net core\PartyTime\PartyTime\bin\Debug\netcoreapp1.1\PartyTime.Infrastructure.dll
+D:\asp .net core\PartyTime\PartyTime\bin\Debug\netcoreapp1.1\PartyTime.Infrastructure.pdb
+D:\asp .net core\PartyTime\PartyTime\bin\Debug\netcoreapp1.1\PartyTime.Core.pdb

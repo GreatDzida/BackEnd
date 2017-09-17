@@ -7042,16 +7042,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\asp .net core\\PartyTime\\PartyTime.Core\\PartyTime.Core.csproj",
+      "projectUniqueName": "d:\\asp .net core\\PartyTime\\PartyTime.Core\\PartyTime.Core.csproj",
       "projectName": "PartyTime.Core",
-      "projectPath": "D:\\asp .net core\\PartyTime\\PartyTime.Core\\PartyTime.Core.csproj",
-      "outputPath": "D:\\asp .net core\\PartyTime\\PartyTime.Core\\obj\\",
+      "projectPath": "d:\\asp .net core\\PartyTime\\PartyTime.Core\\PartyTime.Core.csproj",
+      "outputPath": "d:\\asp .net core\\PartyTime\\PartyTime.Core\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/PartyTime.Core.dll": "D:\\asp .net core\\PartyTime\\PartyTime.Core\\bin\\placeholder\\netcoreapp1.1\\PartyTime.Core.dll"
+        "lib/netcoreapp1.1/PartyTime.Core.dll": "d:\\asp .net core\\PartyTime\\PartyTime.Core\\bin\\placeholder\\netcoreapp1.1\\PartyTime.Core.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {

@@ -1,7 +1,8 @@
-using OA.Data;  
 using System.Collections.Generic; 
 
-public interface IRepository<T> where T : BaseEntity  
+namespace PartyTime.Core
+{
+    public interface IRepository<T> where T : BaseEntity  
     {  
         IEnumerable<T> GetAll();  
         T Get(long id);  
@@ -11,3 +12,4 @@ public interface IRepository<T> where T : BaseEntity
         void Remove(T entity);  
         void SaveChanges();  
     }  
+}
