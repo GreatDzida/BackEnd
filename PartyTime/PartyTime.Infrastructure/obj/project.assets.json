@@ -2272,6 +2272,12 @@
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
           "Microsoft.NETCore.App": "1.1.2"
+        },
+        "compile": {
+          "bin/placeholder/netcoreapp1.1/PartyTime.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netcoreapp1.1/PartyTime.Core.dll": {}
         }
       }
     }
@@ -7063,6 +7069,9 @@
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "files": {
+        "lib/netcoreapp1.1/PartyTime.Infrastructure.dll": "D:\\asp .net core\\PartyTime\\PartyTime.Infrastructure\\bin\\placeholder\\netcoreapp1.1\\PartyTime.Infrastructure.dll"
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
@@ -7078,8 +7087,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "1.1.2",
-            "autoReferenced": true
+            "version": "1.1.2"
           }
         }
       }

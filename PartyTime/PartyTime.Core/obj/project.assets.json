@@ -7050,6 +7050,9 @@
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "files": {
+        "lib/netcoreapp1.1/PartyTime.Core.dll": "D:\\asp .net core\\PartyTime\\PartyTime.Core\\bin\\placeholder\\netcoreapp1.1\\PartyTime.Core.dll"
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
@@ -7061,8 +7064,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "1.1.2",
-            "autoReferenced": true
+            "version": "1.1.2"
           }
         }
       }
