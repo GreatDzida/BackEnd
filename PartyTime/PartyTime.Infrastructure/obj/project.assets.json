@@ -2530,12 +2530,6 @@
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
           "Microsoft.NETCore.App": "1.1.2"
-        },
-        "compile": {
-          "bin/placeholder/netcoreapp1.1/PartyTime.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/netcoreapp1.1/PartyTime.Core.dll": {}
         }
       }
     }
@@ -7567,22 +7561,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\asp .net core\\PartyTime\\PartyTime.Infrastructure\\PartyTime.Infrastructure.csproj",
+      "projectUniqueName": "D:\\asp .net core\\PartyTime\\PartyTime.Infrastructure\\PartyTime.Infrastructure.csproj",
       "projectName": "PartyTime.Infrastructure",
-      "projectPath": "d:\\asp .net core\\PartyTime\\PartyTime.Infrastructure\\PartyTime.Infrastructure.csproj",
-      "outputPath": "d:\\asp .net core\\PartyTime\\PartyTime.Infrastructure\\obj\\",
+      "projectPath": "D:\\asp .net core\\PartyTime\\PartyTime.Infrastructure\\PartyTime.Infrastructure.csproj",
+      "outputPath": "D:\\asp .net core\\PartyTime\\PartyTime.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
-      "files": {
-        "lib/netcoreapp1.1/PartyTime.Infrastructure.dll": "d:\\asp .net core\\PartyTime\\PartyTime.Infrastructure\\bin\\placeholder\\netcoreapp1.1\\PartyTime.Infrastructure.dll"
-      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "d:\\asp .net core\\PartyTime\\PartyTime.Core\\PartyTime.Core.csproj": {
-              "projectPath": "d:\\asp .net core\\PartyTime\\PartyTime.Core\\PartyTime.Core.csproj"
+            "D:\\asp .net core\\PartyTime\\PartyTime.Core\\PartyTime.Core.csproj": {
+              "projectPath": "D:\\asp .net core\\PartyTime\\PartyTime.Core\\PartyTime.Core.csproj"
             }
           }
         }
@@ -7591,10 +7582,6 @@
     "frameworks": {
       "netcoreapp1.1": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "1.1.2"
-          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "1.0.0"
@@ -7602,6 +7589,11 @@
           "Microsoft.EntityFrameworkCore.Tools.DotNet": {
             "target": "Package",
             "version": "1.0.0"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "1.1.2",
+            "autoReferenced": true
           }
         }
       }

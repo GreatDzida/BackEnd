@@ -7042,17 +7042,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\asp .net core\\PartyTime\\PartyTime.Core\\PartyTime.Core.csproj",
+      "projectUniqueName": "D:\\asp .net core\\PartyTime\\PartyTime.Core\\PartyTime.Core.csproj",
       "projectName": "PartyTime.Core",
-      "projectPath": "d:\\asp .net core\\PartyTime\\PartyTime.Core\\PartyTime.Core.csproj",
-      "outputPath": "d:\\asp .net core\\PartyTime\\PartyTime.Core\\obj\\",
+      "projectPath": "D:\\asp .net core\\PartyTime\\PartyTime.Core\\PartyTime.Core.csproj",
+      "outputPath": "D:\\asp .net core\\PartyTime\\PartyTime.Core\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
-      "files": {
-        "lib/netcoreapp1.1/PartyTime.Core.dll": "d:\\asp .net core\\PartyTime\\PartyTime.Core\\bin\\placeholder\\netcoreapp1.1\\PartyTime.Core.dll"
-      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
@@ -7064,7 +7061,8 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "1.1.2"
+            "version": "1.1.2",
+            "autoReferenced": true
           }
         }
       }
