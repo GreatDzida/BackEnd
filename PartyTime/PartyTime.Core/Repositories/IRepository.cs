@@ -1,4 +1,5 @@
-using System.Collections.Generic; 
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace PartyTime.Core
 {
@@ -6,10 +7,11 @@ namespace PartyTime.Core
     {  
         IEnumerable<T> GetAll();  
         T Get(long id);  
-        void Insert(T entity);  
+        Task Insert(T entity);  
         void Update(T entity);  
         void Delete(T entity);  
         void Remove(T entity);  
-        void SaveChanges();  
+        void SaveChanges();
+        //Task AddAsync(T user);
     }  
 }

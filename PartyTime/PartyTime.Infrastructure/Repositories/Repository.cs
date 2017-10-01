@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;  
 using System.Linq;
 using PartyTime.Core;
- 
+using System.Threading.Tasks;
 
 namespace PartyTime.Infastructure
 {  
@@ -16,7 +16,7 @@ namespace PartyTime.Infastructure
         public Repository(ApplicationContext context)  
         {  
             this.context = context;  
-            entities = context.Set<T>();  
+            //entities = context.Set<T>();  
         }  
         public IEnumerable<T> GetAll()  
         {  
@@ -27,14 +27,15 @@ namespace PartyTime.Infastructure
         {  
             return entities.SingleOrDefault(s => s.Id == id);  
         }  
-        public void Insert(T entity)  
+        public async Task Insert(T entity)  
         {  
             if (entity == null)  
             {  
                 throw new ArgumentNullException("entity");  
             }  
-            entities.Add(entity);  
-            context.SaveChanges();  
+            context.Add(entity);  
+            context.SaveChanges();
+            await Task.CompletedTask;
         }  
   
         public void Update(T entity)  
