@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 
-namespace Evento.Api.Framework
+namespace PartyTime
 {
     public static class Extensions
     {

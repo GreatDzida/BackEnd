@@ -17,10 +17,10 @@ namespace PartyTime.Controllers
             this.userService = userService;
         }
 
-        [HttpPost("register")]
+        [HttpPost]
         public async Task<IActionResult> Post([FromBody]User user)
         {
-            await userService.RegisterAsync(Guid.NewGuid(), user.Email, user.Name, user.SurName,user.Login, user.Password, user.Phone);
+            await userService.RegisterAsync(Guid.NewGuid(), user.Email, user.Name, user.Surname,user.Login, user.Password, user.Phone);
             return Created("/account", null);
         }
     }
