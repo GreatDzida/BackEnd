@@ -28,7 +28,9 @@ namespace UnitTest
             // Run the test against one instance of the context
             using (var context = new ApplicationContext(options))
             {
-                //var mockRepository = new Mock<Repository<User>>();
+                //var mockRepository = new Mock<IRepository<User>>();
+                //var userService = new UserService(mockRepository.Object);
+
                 var userRepository = new Repository<User>(context);
                 var userService = new UserService(userRepository);
                 await userService.RegisterAsync(Guid.NewGuid(),"aaa@wp.pl","dzida","dz2","imba","12345","55555555");

@@ -9,8 +9,9 @@ namespace PartyTime.Infastructure
     {
         public virtual DbSet<User> Users { get; set; }
         public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)  
-        {  
+        {
             
+          
         }  
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)  
@@ -22,10 +23,12 @@ namespace PartyTime.Infastructure
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=EFProviders.InMemory;Trusted_Connection=True;");
-            }
+            optionsBuilder.UseInMemoryDatabase(databaseName: "Add_writes_to_database");
+            //if (!optionsBuilder.IsConfigured)
+            //{
+
+            //    optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=EFProviders.InMemory;Trusted_Connection=True;");
+            //}
         }
     }  
 }  

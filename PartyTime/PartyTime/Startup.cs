@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using PartyTime.Infastructure;
 using PartyTime.Core;
+using Microsoft.EntityFrameworkCore;
 
 namespace PartyTime
 {
@@ -39,10 +40,13 @@ namespace PartyTime
             });
             // Add framework services.
             services.AddMvc();
-                    
-         // services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));  
-          services.AddScoped(typeof(IRepository<>), typeof(Repository<>));  
-          services.AddTransient<IUserService, UserService>();            
+            services.AddDbContext<ApplicationContext>(options => options.UseInMemoryDatabase(databaseName: "Add_writes_to_database"));
+            services.AddMemoryCache();
+            // services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));  
+            services.AddScoped(typeof(IRepository<User>), typeof(Repository<User>));  
+          services.AddTransient<IUserService, UserService>();   
+            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
