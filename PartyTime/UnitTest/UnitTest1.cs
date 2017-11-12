@@ -28,7 +28,7 @@ namespace UnitTest
             // Run the test against one instance of the context
             using (var context = new ApplicationContext(options))
             {
-                //var mockRepository = new Mock<IRepository<User>>();
+                //var userRepository = new Mock<IRepository<User>>();
                 //var userService = new UserService(mockRepository.Object);
 
                 var userRepository = new Repository<User>(context);

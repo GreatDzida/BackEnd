@@ -16,7 +16,7 @@ namespace PartyTime.Infastructure
         public Repository(ApplicationContext context)  
         {  
             this.context = context;  
-            //entities = context.Set<T>();  
+            entities = context.Set<T>();  
         }  
         public IEnumerable<T> GetAll()  
         {  
@@ -32,8 +32,8 @@ namespace PartyTime.Infastructure
             if (entity == null)  
             {  
                 throw new ArgumentNullException("entity");  
-            }  
-            context.Add(entity);  
+            }
+            entities.Add(entity);  
             context.SaveChanges();
             await Task.CompletedTask;
         }  
@@ -53,6 +53,7 @@ namespace PartyTime.Infastructure
             {  
                 throw new ArgumentNullException("entity");  
             }  
+          
             entities.Remove(entity);  
             context.SaveChanges();  
         }  

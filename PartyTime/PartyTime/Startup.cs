@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using PartyTime.Infastructure;
 using PartyTime.Core;
 using Microsoft.EntityFrameworkCore;
+using Evento.Infrastructure.Mappers;
 
 namespace PartyTime
 {
@@ -42,6 +43,7 @@ namespace PartyTime
             services.AddMvc();
             services.AddDbContext<ApplicationContext>(options => options.UseInMemoryDatabase(databaseName: "Add_writes_to_database"));
             services.AddMemoryCache();
+            services.AddSingleton(AutoMapperConfig.Initialize());
             // services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));  
             services.AddScoped(typeof(IRepository<User>), typeof(Repository<User>));  
           services.AddTransient<IUserService, UserService>();   

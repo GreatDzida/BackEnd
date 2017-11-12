@@ -12,6 +12,7 @@ using PartyTime.Core;
 using System;
 using Microsoft.EntityFrameworkCore;
 using PartyTime.Infastructure;
+using FluentAssertions;
 
 namespace FuncionalTest
 {
@@ -54,6 +55,7 @@ namespace FuncionalTest
                 var response = await _client.PostAsync("api/user", stringContent);
                 var content = await response.Content.ReadAsStringAsync();
                 //Assert
+                content.Should().BeEmpty();
                 response.EnsureSuccessStatusCode();
                 //var userRepository = new Repository<User>(context);
                 //var userService = new UserService(userRepository);
